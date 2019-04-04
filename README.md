@@ -18,7 +18,9 @@ The Overleaf build, for example, is very slow for large projects with many megab
 
 ### Integration with text editors
 
-This makefile allows you to use editors like Sublime Text, thats provides shortcut for building using `Ctrl+B`.
+This makefile allows you to use editors like Sublime Text, thats provides shortcut for building using `Ctrl+B`. Just add the target `all` with the documents you want to build. For example:
+
+`all: doc1.pdf doc2.pdf`
 
 ### A general recipe for articles and beamer
 
