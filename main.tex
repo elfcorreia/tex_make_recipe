@@ -1,0 +1,32 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{lipsum}
+\usepackage[backend=biber,style=alphabetic]{biblatex}
+\addbibresource{references.bib}
+
+\title{Document title}
+\date{2019}
+\author{Emerson C. Lima}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\lipsum[1] \cite{back1993overview}
+\lipsum[2]
+
+\section{Methodology}
+
+\lipsum[2]
+
+\section{Conclusions}
+
+\lipsum[2]
+
+\printbibliography
+
+\end{document}
